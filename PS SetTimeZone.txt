@@ -1,8 +1,8 @@
 Param
 (
-	[Parameter(Mandatory=$true,ParameterSetName='FriendlyName')]
+	[Parameter(Mandatory,ParameterSetName='FriendlyName')]
 	[Alias('friendly')][String]$TimeZoneFriendlyName,
-	[Parameter(Mandatory=$true,ParameterSetName='ShowTimeZone')]
+	[Parameter(Mandatory,ParameterSetName='ShowTimeZone')]
 	[Alias('sh')][Switch]$ShowTimeZone
 )
 	
